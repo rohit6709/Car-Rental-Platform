@@ -12,3 +12,17 @@
     --color-light: #F1F5F9;
     --color-borderColor: #c4c7d2;
 }
+/* For Chrome, Safari, Edge */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* For IE/old Edge */
+html {
+  -ms-overflow-style: none;
+}
