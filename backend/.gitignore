@@ -16,3 +16,5 @@ yarn-debug.log*
 *.pid
 .cache/
 database.db
+.envrc
+*.envrc
